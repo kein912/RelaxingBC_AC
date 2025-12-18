@@ -44,7 +44,7 @@ startTime = datetime('now') - hours(8); % 用 'now' 或指定一個時間
 %    (t_seconds 必須在第 3 節被定義為一個 "行" 向量, e.g., t_seconds = (0:n_points-1)' / fs;)
 timeDuration = seconds(t_seconds);
 
-% 3. (關鍵) 建立 "絕對時間" 向量 (這行可能被您誤刪了)
+% 3. (關鍵) 建立 "絕對時間" 向量 
 timestamp_vector = startTime + timeDuration;
 
 % 4. (修正) 將 "絕對時間" 向量轉換為 "字串"

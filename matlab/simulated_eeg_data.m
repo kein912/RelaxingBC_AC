@@ -8,7 +8,7 @@ n_points = fs * duration;
 
 % --- 您的 "標準答案" 功率分佈 ---
 amp_alpha = 10;        % Alpha (11 Hz)
-amp_beta  = 2;         % Beta (20 Hz)
+amp_beta  = 10;         % Beta (20 Hz)
 % amp_noise = 0.5;       % 雜訊
 
 %% 3. 建立時間軸 (秒)
